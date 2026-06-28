@@ -4,7 +4,7 @@ const audioElement = document.querySelector("audio");
 const track = audioContext.createMediaElementSource(audioElement);
 
 const gainNode = audioContext.createGain();
-const volumeControl = document.getElementById("volumeSlider"); // querySelector(#volumeSlider) did not work
+const volumeControl = document.getElementById("volumeSlider");
 
 track.connect(audioContext.destination)
 track.connect(gainNode).connect(audioContext.destination);
