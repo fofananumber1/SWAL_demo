@@ -7,5 +7,5 @@ It is a basic audio player which plays one song, Claire de Lune. There is also a
 ## How to Run ##
 
 1. Download or clone this repository.
-2. Open 'page.html' in a browser. 
+2. Open "https://fofananumber1.github.io/SWAL_demo/" in a browser.
 3. Click 'Toggle audio' and use the audio slider to interact with audio.
